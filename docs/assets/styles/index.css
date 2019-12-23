@@ -1,0 +1,26 @@
+@import url(global.css);
+
+#header {
+    border-bottom: 1px solid #eee;
+}
+
+#page ul li {
+    border-bottom: 1px solid #eee;
+}
+
+#page ul li a, #page ul li div {
+    display: block;
+    padding: 10px;
+}
+
+#page ul li a:hover {
+    background: #fcfcfc;
+}
+
+#header h1, #header h2 {
+    font-size: 55px;
+}
+
+#header h2 {
+    color: #999;
+}

@@ -1,0 +1,41 @@
+* {
+    font: normal 11px/20px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", Verdana, sans-serif;
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-size: 11px;
+    background-color: #fff;
+}
+code, samp, kbd, tt, pre {
+    font-family: "Courier New", Courier, mono;
+}
+a, a:link, a:visited, a:hover, a:active {
+    color: #346b9e;
+    text-decoration: none;
+}
+a:hover {
+    color: #23486b;
+    background-color: #fdff9d;
+}
+input {
+    line-height: 14px;
+}
+img {
+    border-style: none;
+}
+body {
+    *filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+q:before, q:after {
+    content: "";
+}
+.clear {
+    clear: both;
+}
