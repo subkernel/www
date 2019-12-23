@@ -1,0 +1,187 @@
+@import url(base.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+* {
+    letter-spacing: 0.025em;
+}
+
+html, body {
+    max-width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 1em 0;
+}
+
+.section {
+    padding: 30px;
+}
+
+.section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.inner {
+    margin: 0 auto;
+}
+
+.xoverflow {
+    overflow-x: auto;
+}
+
+.error {
+    color: #f03;
+}
+
+#footer {
+    color: #999;
+}
+
+#header .inner {
+    max-width: 800px;
+    padding-bottom: 50px;
+}
+
+#header .inner::before {
+    content: "";
+    display: block;
+    background: url(../images/icon.png) center center no-repeat;
+    background-size: auto 125px;
+    padding-bottom: 125px;
+    margin: 50px;
+}
+
+#header h1 {
+    letter-spacing: 0em;
+    font-weight: 200;
+    line-height: 1em;
+    text-align: center;
+    padding-bottom: 0.6em;
+}
+
+#header h4 {
+    line-height: 1.6em;
+    text-align: center;
+}
+
+#macbook-pro {
+    height: 650px;
+    width: 100vw;
+    background-color: #f6f6f6;
+    background-image: url('../images/macbook-pro.png');
+    background-repeat: no-repeat;
+    background-size: 555px 358px;
+    background-position: center 35%;
+}
+
+#macbook-pro p {
+    padding-top: 430px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+#macbook-pro p::after {
+    content: "";
+    display: block;
+    background: url(../images/touchbar.png) center center no-repeat;
+    background-size: auto 30px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+#hero {
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/hero.jpg');
+}
+
+#remote-light {
+    background: url(../images/remote-light.png) center 90% no-repeat;
+    background-color: #eee;
+    background-size: auto 222px;
+    padding-bottom: 250px;
+    float: left;
+    width: 50%;
+}
+
+#remote-dark {
+    background: url(../images/remote-dark.png) center 90% no-repeat;
+    background-color: #ccc;
+    background-size: auto 222px;
+    padding-bottom: 250px;
+    float: right;
+    width: 50%;
+}
+
+@media screen and (max-width: 720px) {
+    
+    #remote-light, #remote-dark {
+        float: none;
+        width: 100%;
+    }
+}
+
+#infomation::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#infomation h4 {
+    margin-top: 2em;
+}
+
+#infomation ul {
+    margin: 1em 0 2em;
+}
+
+#infomation ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#infomation .inner {
+    padding: 50px 0;
+    max-width: 800px;
+}
+
+#footer p {
+    margin: 0 auto;
+    max-width: 800px;
+}
