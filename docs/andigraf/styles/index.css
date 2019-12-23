@@ -1,0 +1,173 @@
+@import url(base.css);
+
+body {
+    background: #fff url(../images/body_bg_grid.jpg) repeat-x;
+}
+#pageTop {
+    display: none;
+}
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 -80px;
+    background: url(../images/body_bg_grid_topleft.jpg) no-repeat;
+}
+#push {
+    clear: both;
+    height: 80px;
+}
+#footer {
+    width: 954px;
+    height: 40px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 40px;
+    background: url(../images/footer.gif) no-repeat 0 bottom;
+}
+#footer p {
+    margin-left: 72px;
+    padding-left: 20px;
+    line-height: 14px;
+    background: url(../images/arrow_section.gif) no-repeat 0 center;
+    *background-position: 0 6px;
+}
+#footer p a {
+    line-height: 14px;
+}
+#footer a.pageTop {
+    line-height: 14px;
+    margin-right: 30px;
+    padding-left: 15px;
+    background: url(../images/page_top.gif) no-repeat 0 center;
+    *background-position: 0 4px;
+}
+#footer a.pageTop:hover {
+    color: #23486b;
+    background-color: #fdff9d;
+}
+#header {
+    width: 954px;
+    height: 584px;
+    margin: 0 auto;
+    background: url(../images/header_h1.gif) no-repeat;
+    overflow: hidden;
+}
+#header h1 {
+    display: none;
+}
+#appstore {
+    position: relative;
+    left: 670px;
+    top: 280px;
+}
+#introtext {
+    width: 954px;
+    margin: 0 auto;
+}
+#introtext p {
+    background: url(../images/title.gif) no-repeat;
+    font-size: 12px;
+    padding-top: 40px;
+    margin: 0 70px;
+}
+#lens_film {
+    clear: both;
+    background: url(../images/lens_film_bg.jpg) repeat-x;
+    margin-top: 10px;
+}
+#lens_film .inner {
+    padding: 0 37px;
+}
+#lens_film p {
+    background-image: url(../images/lens_film.jpg);
+    width: 880px;
+    padding-top: 422px;
+    height: 0 !important;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#features {
+    clear: both;
+    width: 954px;
+    margin: 0 auto;
+}
+#features #product {
+    float: left;
+    width: 320px;
+    margin-right: 40px;
+    padding-left: 70px;
+}
+#features #lenses {
+    float: left;
+    width: 190px;
+    margin-right: 40px;
+}
+#features #films {
+    float: left;
+    width: 190px;
+}
+#features h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+#features div ul.square li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+#samples {
+    clear: both;
+    width: 815px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#samples h4 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+#samples a {
+    margin: 0;
+    padding: 0;
+    width: 96px;
+    height: 64px;
+    border: 2px solid #fff;
+    display: block;
+    float: left;
+}
+#samples a:hover {
+    border: 2px solid #d64300;
+}
+#samples a img {
+    margin: 0;
+    padding: 0;
+    width: 96px;
+    height: 64px;
+    float: left;
+}
+#slide-images{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    left: 297px;
+    top: 228px;
+}
+#slide-images li {
+    position: absolute;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+#slide-images li img {
+    display: block;
+    background-color: #fff;
+}
+
