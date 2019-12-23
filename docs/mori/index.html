@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <meta name="keywords" content="mobile, safari, iphone, web, browser, web browser, web app, instagram, twitter, facebook, mori, float, column, pin" />
+    <meta name="description" content="Mori. Mobile web browser for Mac." />
+    <meta name="copyright" content="(c) 2017 Subkernel" />
+    <meta name="author" content="Woochul Jung at Subkernel/5td" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <title>Mori. Mobile web browser for Mac.</title>
+
+	<link rel="shortcut icon" href="/www/favicon.ico" />
+	<link rel="apple-touch-icon" href="/www/favicon-152.png" />
+    <link rel="stylesheet" media="screen" href="assets/styles/index.css" />
+    <script src="/www/assets/scripts/jquery.min.js"></script>
+    <script>
+    $(function(){var a=this;$(function(){$("#wrapper-inner").css({paddingBottom:$("#footer").outerHeight()})});$(window).on("load",function(){a.fix()});$(window).on("resize",function(){a.fix()});$(window).on("scroll",function(){a.fix()});this.fix=function(){var a=$(window).height(),b=$("#wrapper-inner").outerHeight();a<b?$("#wrapper").attr("style")&&$("#wrapper").removeAttr("style"):$("#wrapper").height()!=a&&$("#wrapper").height(a)}});	
+    $(document).ready(function(){$('#play-video').on('click', function(e){$("#video iframe")[0].src+="&autoplay=1";e.preventDefault();});});
+    </script>
+
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="wrapper-inner">
+        <div id="header">
+            <div class="inner">
+                <h1>Mori. Mobile web browser for Mac.</h1>
+                <h3>The best way to see the mobile websites on Mac.</h3>
+                <p>Mori is a web browser built to view mobile websites and webapps on Mac. It works just like iPhone Safari. Just click safari extension button to open mobile version of the website. Also, Mori supports various modes like popover in menu bar, column browsing, floating window with transparency.</p>
+                <a href="#" id="play-video">Watch the introduction video ▷</a>
+            </div>
+        </div>
+        <div id="video">
+            <div class="inner">
+                <!--iframe src="https://player.vimeo.com/video/226388680" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe-->
+
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/eUR9AwZOBv4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="extension">
+            <div class="inner">
+                <h2>Safari extension to view mobile version of the webpage.</h2>
+            </div>
+        </div>
+        <div id="popover">
+            <div class="inner">
+                <h2>Pin your favorites websites.</h2>
+            </div>
+            <div class="sub">
+                <h5>Menubar popover</h5>
+                <ul>
+                    <li>⌘ + p to pin to menu bar.</li>
+                    <li>Drag popover to detach to window.</li>
+                    <li>Option + click to open main menu on main icon.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="column">
+            <div class="inner">
+                <h2>Column, The new way of web browsing.</h2>
+            </div>
+            <div class="sub">
+                <h5>Column browsing</h5>
+                <ul>
+                    <li>⌘ + click to open a link in a new column.</li>
+                    <li>⌘ + Shift + click to open a link in the next column.</li>
+                    <li>⌘ + Option + click to open a link in a new window.</li>
+                    <li>Drag over a window on another window to attach.</li>
+                    <li>Long press titlebar to detach to new window or realign.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="basic">
+            <div class="sub">
+                <h5>Basic gestures and actions</h5>
+                <ul>
+                    <li>Double click titlebar to scroll top.</li>
+                    <li>Swipe right to go back.</li>
+                    <li>Swipe left to go forward.</li>
+                    <li>Pull down to refresh. (Only on the top of webpages)</li>
+                    <li>Click address bar to search or open favorites.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="inner">Copyright &copy; 2017 Subkernel - all works by Woochul Jung</div>
+    </div>
+</div>
+
+</body>
+</html>

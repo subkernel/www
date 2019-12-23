@@ -1,0 +1,27 @@
+@import url(base.css);
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    font-size: 15px;
+}
+
+ul, ol, li {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#wrapper {
+    position: relative;
+}
+
+#footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #999;
+}
