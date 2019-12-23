@@ -1,0 +1,156 @@
+@import url(base.css);
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 -60px;
+    width: 100%;
+    overflow-x: hidden;
+}
+#push {
+    clear: both;
+    height: 60px;
+}
+#footer {
+    height: 50px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 10px;
+    background-color: #ff0000;
+}
+#footer p {
+    font: 20px "HelveticaNeue-Bold";
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#header {
+    overflow: hidden;
+}
+#header h1 {
+    display: none;
+}
+img {
+    display: block;
+}
+#hero img {
+    width: 100%;
+}
+#content h1 {
+    font: 60px "HelveticaNeue-Bold";
+    color: #f00;
+}
+#content img {
+    width: 150px;
+    margin-left: -22px;
+}
+#content h4 {
+    font: 30px "HelveticaNeue-Bold";
+    color: #f00;
+}
+#content b {
+    font: 18px "HelveticaNeue-Bold";
+    color: #f00;
+    display: block;
+    margin-top: 30px;
+}
+#content p {
+    font: 18px "HelveticaNeue";
+    color: #f00;
+    margin-bottom: 30px;
+}
+#ipad img {
+    width: 100%;
+}
+#hero_bg {
+    background: #e0e0e0 url(../images/hero_bg.png) repeat-x;
+    background-size: auto 100%;
+}
+#content_bg {
+    background-color: #e0e0e0;
+}
+#gallery h4 {
+    font: 30px "HelveticaNeue-Bold";
+    color: #f00;
+    margin-top: 40px;
+}
+#gallery img {
+    width: 100%;
+}
+.text {
+    width: 55%;
+    float: right;
+}
+@media screen and (min-width: 1000px) {
+.box {
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+}
+#footer p {
+    width: 1000px;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 768px) {
+.text {
+    width: 57%;
+}
+}
+
+@media screen and (max-width: 568px) {
+.text {
+    width: 90%;
+}
+#ipad img {
+    width: 120%;
+    margin-left: -10%;
+}
+#gallery img {
+    width: 140%;
+    margin-left: -20%;
+}
+}
+@media screen and (max-width: 320px) {
+#content h1 {
+    font-size: 37px;
+}
+#content h4, #gallery h4 {
+    font-size: 24px;
+}
+#content b, #content p {
+    font-size: 16px;
+}
+#hero img {
+    width: 120%;
+    margin-left: -10%;
+    margin-top: 10px;
+}
+#ipad img {
+    width: 180%;
+    margin-left: -40%;
+}
+#gallery img {
+    width: 200%;
+    margin-left: -50%;
+}
+}
+
+@media screen and (max-width: 568px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+@media screen and (max-width: 767px) and (orientation:portrait) {
+}
+@media screen and (max-width: 567px) and (orientation:portrait) {
+}
+
+@media screen and (max-width: 767px) {
+}
