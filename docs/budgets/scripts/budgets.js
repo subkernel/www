@@ -68,7 +68,8 @@ function animation()
         var logo_index = Math.floor(Math.random()*7);
         var logo_angle = Math.floor(Math.random()*4);
 
-        $("#hero").append('<img src="../budgets/images/logo_'+logo_index+'_'+logo_angle+'.png" width="100" height="100" />');
+        // $("#hero").append('<img src="../budgets/images/logo_'+logo_index+'_'+logo_angle+'.png" width="100" height="100" />');
+        $("#hero").append('<img src="https://subkernel.github.io/www/budgets/images/logo_'+logo_index+'_'+logo_angle+'.png" width="100" height="100" />');
     };
 
     $("#hero").fadeTo( "slow" , 1.0, function() {});
